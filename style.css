@@ -19,6 +19,7 @@ ul {
     position: fixed;
     cursor: pointer;
     z-index: 4;
+    top: 30px;
 }
 
 .img-topo {
@@ -28,11 +29,12 @@ ul {
 video {
     width: 100vw;
     min-height: 60vh;
+    margin-top: 5%;
 }
 
 .capa {
     position: absolute;
-    bottom: 30%;
+    bottom: 43%;
     left: 5%;
     width: 35%;
     z-index: 3;
@@ -67,25 +69,41 @@ video {
     cursor: pointer;
 }
 
-.imagem-carrossel {
-    height: 150px;
-    cursor: pointer;
-    z-index: 10;
-    margin-bottom: 40px;
-}
 
 #carouselExampleControls {
     background-color: transparent;
-    position: absolute;
-    bottom: -200px;
-    align-items: center;
+    display: block;
+    margin: 1%;
+
+}
+
+.imagem-carrossel {
+    height: 150px;
+    cursor: pointer;
+    z-index: 20;
+    margin-bottom: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    
+}
+
+.carousel-inner {
+    text-align: center;
 }
 
 .titulo-carrossel {
-    color: white;
-    font-size: 30px;
-    margin-bottom: 10px;
-    margin-top: 300px;
+    color: #ffffff;
+    margin-left: 5%;
+
+}
+
+.carousel-control-prev {
+    margin-left: -100px;
+}
+
+.carousel-control-next {
+    margin-right: -100px;
 }
 
 .botao-som {
@@ -94,7 +112,7 @@ video {
     cursor: pointer;
     z-index: 4;
     position: absolute;
-    bottom: 200px;
+    bottom: 440px;
     right: 50px;
     background-color: transparent;
     font-size: 30px;
